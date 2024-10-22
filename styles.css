@@ -1,0 +1,257 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Epilogue", sans-serif;
+}
+
+body {
+  background-color: white;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 24px 42px;
+}
+
+nav {
+  display: flex;
+  gap: 24px;
+}
+
+nav a {
+  font-size: 17px;
+  font-weight: 400;
+  color: #2d2d2d;
+  line-height: 27px;
+  text-decoration: none;
+}
+
+#hero {
+  padding: 42px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#hero .left {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 50%;
+}
+
+.slogan {
+  font-size: 20px;
+  font-weight: 500;
+  color: #2d2d2d;
+  line-height: 30px;
+}
+
+h1 {
+  font-size: 68px;
+  font-weight: 500;
+  color: #2d2d2d;
+}
+
+.description {
+  font-size: 17px;
+  font-weight: 400;
+  color: #2d2d2d;
+  line-height: 27px;
+}
+
+button {
+  background-color: #2d2d2d;
+  color: white;
+  padding: 24px 64px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  width: 211px;
+  height: 78px;
+}
+
+#brands {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 42px 68px;
+}
+
+#services {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 42px 24px;
+  width: 100%;
+}
+
+.service {
+  width: 395px;
+  padding: 64px 42px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 42px;
+}
+
+.service p {
+  text-align: center;
+}
+
+#latest {
+  padding: 42px 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 24px;
+}
+
+.latest_top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: 500;
+  color: #2d2d2d;
+  line-height: 42px;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 500;
+  color: #2d2d2d;
+  line-height: 30px;
+}
+
+.work p {
+  font-size: 17px;
+  font-weight: 400;
+  color: #2d2d2d;
+  line-height: 27px;
+}
+
+#testimonial {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 24px;
+}
+
+.testimonial_up {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+
+.testimonial_box {
+  width: 395px;
+  height: 330px;
+  background-color: #f3f3f3;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 42px;
+}
+
+.testimonial_box h4 {
+  color: #2d2d2d;
+  font-size: 20px;
+  font-weight: 500;
+  color: #2d2d2d;
+  line-height: 30px;
+  background-color: transparent;
+}
+
+.testimonial_span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  gap: 16px;
+}
+
+.testimonial_right h6 {
+  font-size: 20px;
+  font-weight: 500;
+  color: #2d2d2d;
+  line-height: 30px;
+}
+
+#contact {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 42px 24px 86px;
+}
+
+#contact h5 {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 42px;
+  color: #2d2d2d;
+  margin-bottom: 10px;
+}
+
+.contact_inner {
+  gap: 142px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.contact_left {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 16px;
+}
+
+.contact_left p {
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 27px;
+  color: #2d2d2d;
+}
+
+.contact_right {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.contact_right input {
+  width: 100%;
+  background-color: #f3f3f3;
+  padding: 16px 24px;
+  color: #2d2d2d;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 27px;
+  color: #2d2d2d;
+  border: none;
+}
